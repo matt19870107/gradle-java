@@ -18,7 +18,7 @@ public class MyTestServiceImplTest extends TestCase {
         MyTestServiceImpl myTestService = Mockito.mock(MyTestServiceImpl.class);
         Mockito.doCallRealMethod().when(myTestService).sayHello(anyString());
         when(myTestService.getTime()).thenReturn(localDateTime);
-        assertEquals("Hey, Matt, you should go to move bricks~",
+        assertEquals("not equlas", "Hey, Matt, you should go to move bricks~",
                 myTestService.sayHello("Matt"));
     }
 }

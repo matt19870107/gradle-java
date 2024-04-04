@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kingland.neusoft.gradle.impl.MyTestServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-04T13:09:10" hostname="L50592" time="0.787">
+<testsuite name="com.kingland.neusoft.gradle.impl.MyTestServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-13T11:11:12" hostname="L50592" time="0.885">
   <properties/>
-  <testcase name="testSayHello" classname="com.kingland.neusoft.gradle.impl.MyTestServiceImplTest" time="0.787"/>
+  <testcase name="testSayHello" classname="com.kingland.neusoft.gradle.impl.MyTestServiceImplTest" time="0.885"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
