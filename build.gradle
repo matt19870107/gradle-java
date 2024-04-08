@@ -1,7 +1,7 @@
 plugins {
     id 'java'
-    id 'jacoco'
-    id 'pmd'
+    id 'jacoco' // https://docs.gradle.org/current/userguide/jacoco_plugin.html
+    id 'pmd' // https://docs.gradle.org/current/userguide/pmd_plugin.html
 }
 
 group 'org.example'
@@ -12,8 +12,8 @@ repositories {
 }
 
 dependencies {
-    testCompileOnly group: 'org.mockito',name:'mockito-core',version: '3.9.0'
-    testCompileOnly group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'org.mockito',name:'mockito-core',version: '3.9.0'
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
 }
 
 test {
@@ -22,7 +22,6 @@ test {
 
 pmd {
     consoleOutput = true
-    toolVersion = "6.29.0"
     ruleSets = ["category/java/errorprone.xml", "category/java/bestpractices.xml"]
 }
 
